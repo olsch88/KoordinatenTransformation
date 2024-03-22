@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoordinatenTransformation", "KoordinatenTransformation\KoordinatenTransformation.csproj", "{D4ABAAE4-CE33-41BF-90A2-80EA95FE2359}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C} = {41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixLibrary", "MatrixLibrary\MatrixLibrary.csproj", "{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4ABAAE4-CE33-41BF-90A2-80EA95FE2359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ABAAE4-CE33-41BF-90A2-80EA95FE2359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ABAAE4-CE33-41BF-90A2-80EA95FE2359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ABAAE4-CE33-41BF-90A2-80EA95FE2359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E7FD25-2B77-4033-ACEF-B8EE5C1E5F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FADC488B-85F0-4C35-BE31-9E79D7A3A29E}
+	EndGlobalSection
+EndGlobal
